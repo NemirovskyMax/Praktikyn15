@@ -10,14 +10,17 @@ namespace ConsoleApp1
     /// </summary>
     internal class Program
     {
-        static void Fou()
+        static void Func()
         {
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine($"{20}\t");
-        }   }
+                Console.Write($"{20}\t");
+
+            }
+        }
         static void Main(string[] args)
         {
+            Func();
             Console.ReadKey();
         }
     }
